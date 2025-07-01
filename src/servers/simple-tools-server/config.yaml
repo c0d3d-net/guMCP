@@ -1,0 +1,11 @@
+name: "Simple Tools guMCP Server"
+icon: "assets/icon.png"
+description: "Basic key-value storage server for testing and demonstration purposes"
+documentation_path: "README.md"
+tools:
+  - name: "store_data"
+    description: "Store a key-value pair in the server's memory"
+  - name: "retrieve_data"
+    description: "Retrieve a value by its key from the server's storage"
+  - name: "list_data"
+    description: "List all stored key-value pairs in the server"
