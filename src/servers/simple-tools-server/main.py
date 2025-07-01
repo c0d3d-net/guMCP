@@ -211,7 +211,9 @@ Sample system prompt
 
         # Get API key for authentication (demonstrates API key usage)
         try:
-            api_key = await get_simple_tools_credentials(current_user, api_key=server.api_key)
+            api_key = await get_simple_tools_credentials(
+                current_user, api_key=server.api_key
+            )
             logger.info(f"Successfully retrieved API key for user {current_user}")
         except ValueError as e:
             return [
