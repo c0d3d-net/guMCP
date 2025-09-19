@@ -30,7 +30,7 @@ While many MCP server providers are closed source, and open-source alternatives 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/gumloop/guMCP.git
+   git clone https://github.com/c0d3d-net/guMCP.git
    cd guMCP
    ```
 
